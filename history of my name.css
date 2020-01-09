@@ -1,0 +1,64 @@
+body{
+	margin: 0 ;
+	padding: 0;
+	}
+	
+.name{
+	font-family: Helvetica, sans-serif;
+	font-size:25px;
+	color: grey;
+	background-color:#69ff52;
+}
+
+.Famous{
+	font-family:Bookman, URW Bookman L, serif; 
+	font-size:25px;
+	font-style: oblique;
+	color:grey;
+	background-color:#41f1fa;
+}
+
+.macedon{
+	color:black;
+}
+
+.poem{
+
+color:black;
+}
+
+.II{
+
+color:black;
+}
+
+.film{
+
+color:black;
+}
+
+.ball{
+
+color:black;
+}
+
+.box{
+
+color:black;
+}
+
+.photo{
+	background-color: #41f1fa;
+	text-align: center;
+}
+
+.foot{
+	text-align: center;
+	background-color: #95fa57;
+}
+
+a{
+	text-decoration: none;
+	color:#0a0000;
+}
+

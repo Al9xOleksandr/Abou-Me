@@ -1,22 +1,61 @@
 body{
 	margin: 0 ;
 	padding: 0;
+
+	}
+
+	.myself{min-height: 40px;
+	background-color: #95fa57;
+	 text-align:center;
+	 padding:10px;
+	 font-weight: 600;
+	 font-size: 25px;
+}
+
+	.menu{
+		display: flex;
+		flex-flow: row;
+		color:#0a0000;
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+		justify-content: space-around;
+	}
+
+	.name{
+		display:block;
+		margin-right: auto;
+		font-size: 22px;
+
+	}
+	.menu li{
+		padding:10px;
 	}
 	
 .name{
-	font-family: Helvetica, sans-serif;
-	font-size:25px;
-	color: grey;
-	background-color:#69ff52;
+max-width: 500px;
+		margin: 10px;
+		padding: 20px;
+		border-bottom:3px solid black;
+		border-radius: 5px;
 }
 
 .Famous{
-	font-family:Bookman, URW Bookman L, serif; 
-	font-size:25px;
-	font-style: oblique;
-	color:grey;
-	background-color:#41f1fa;
+	max-width: 500px;
+		margin: 10px;
+		padding: 20px;
+		border-bottom:3px solid#95fa57;
+		border-radius: 5px;
+		font-size: 22px;
 }
+
+.content{
+		display:flex;
+		flex-flow: row;
+		margin: 0 auto;
+		justify-content: space-around;
+		background-color: #37de45
+	}
 
 .macedon{
 	color:black;
@@ -52,13 +91,63 @@ color:black;
 	text-align: center;
 }
 
-.foot{
-	text-align: center;
-	background-color: #95fa57;
-}
-
 a{
 	text-decoration: none;
 	color:#0a0000;
 }
+
+ footer{
+ 	text-align: center;
+	background-color: #95fa57;
+	font-size: 25px;
+ }
+
+ .web1{
+	text-decoration: none;
+	color:#0a0000;
+	font-family: Roboto;
+	background-color: #fc5347;
+	    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+    transition: transform 1s ease;
+}
+
+.web1:hover{
+	transform: translateX(100px);
+}
+
+.web2{
+	text-decoration: none;
+	color:#0a0000;
+	font-family: Roboto;
+	background-color: #4b62e3;
+	    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+    transition: transform 1.5s ease-out;
+}
+
+.web2:hover{
+	transform: translateX(150px);
+}
+
+.web3{
+	text-decoration: none;
+	color:#0a0000;
+	font-family: Roboto;
+	background-color: #53edaf;
+	    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+    transition: transform 2s linear;
+}
+
+.web3:hover{
+transform: translateX(200px);
+}
+
 

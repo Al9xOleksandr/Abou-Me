@@ -16,6 +16,7 @@ a{
 	 text-align:center;
 	 padding:10px;
 	 font-weight: 600;
+
 }
 	.menu{
 		display: flex;
@@ -83,7 +84,6 @@ a{
 		max-width: 500px;
 		margin: 10px;
 		padding: 20px;
-
 		border-bottom:3px solid #37de45;
 		border-radius: 5px;
 	}
@@ -112,6 +112,62 @@ a{
 footer{
 	text-align:center;
 	padding: 60px;
+	font-size: 22px;
 }
 
+.buttton{
+	display: flex;
+	flex-flow: row;
+}
 
+.web1{
+	text-decoration: none;
+	color:#0a0000;
+	font-family: Roboto;
+	background-color: #fc5347;
+	    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+    transition: padding 0.3s ease-out, background-color 1s ease;
+}
+
+.web1:hover{
+	padding: 20px;
+	background-color:#B141D3;
+	color: white;
+}
+
+.web2{
+	text-decoration: none;
+	color:#0a0000;
+	font-family: Roboto;
+	background-color: #4b62e3;
+	    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+    transition: padding 0.3s ease-out, background-color 1s ease; 
+}
+
+.web2:hover{
+	padding: 20px;
+	background-color:white;
+}
+
+.web3{
+	text-decoration: none;
+	color:#0a0000;
+	font-family: Roboto;
+	background-color: #53edaf;
+	    font-size: 19px;
+    padding: 10px;
+    border-radius: 5px;
+    width: max-content;
+    transition: padding 0.3s ease-out, background-color 1s ease;
+}
+
+.web3:hover{
+	padding:20px;
+	background-color: #13b5f3;
+}
